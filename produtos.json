@@ -1,0 +1,473 @@
+[
+  {
+    "id": 1,
+    "nome": "Caneca Luppyvara e Capizoro",
+    "preco": 39.9,
+    "precoOriginal": 49.9,
+    "imagem": "imagens/caneca.cappiece.webp",
+    "categoria": "canecas",
+    "estoque": 5,
+    "destaque": true
+  },
+  {
+    "id": 2,
+    "nome": "Caneca Gengar Pokemon",
+    "preco": 54.6,
+    "imagem": "imagens/pokemon.png",
+    "categoria": "canecas",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 3,
+    "nome": "Caneca Vegeta",
+    "preco": 59.95,
+    "imagem": "imagens/caneca_vegeta.jpeg",
+    "categoria": "canecas",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 4,
+    "nome": "Caneca Baby Yoda",
+    "preco": 16.99,
+    "precoOriginal": 22.23,
+    "imagem": "imagens/babycoffee.jpeg",
+    "categoria": "canecas",
+    "estoque": 5,
+    "destaque": true
+  },
+  {
+    "id": 5,
+    "nome": "Action Figure Roger",
+    "preco": 199.9,
+    "imagem": "imagens/roger.png",
+    "categoria": "ac",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 6,
+    "nome": "Action Figure Sukuna Era Heian",
+    "preco": 98.95,
+    "precoOriginal": 103.19,
+    "imagem": "imagens/sukuna era hein.webp",
+    "categoria": "ac",
+    "estoque": 5,
+    "destaque": true
+  },
+  {
+    "id": 7,
+    "nome": "Action Figure Nefetpitou",
+    "preco": 216.7,
+    "imagem": "imagens/nefetpitou.jfif.jpeg",
+    "categoria": "ac",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 8,
+    "nome": "Action Figure Irmão do Jorel",
+    "preco": 99.99,
+    "imagem": "imagens/Jorel.jpg",
+    "categoria": "ac",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 9,
+    "nome": "Cosplay Tanjiro Demon Slayer",
+    "preco": 415.84,
+    "imagem": "imagens/imagem.png",
+    "categoria": "roupas",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 10,
+    "nome": "Cosplay Frieren",
+    "preco": 224.05,
+    "imagem": "imagens/frieren cosplay.jpeg",
+    "categoria": "roupas",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 11,
+    "nome": "Cosplay Spy X Family Anya",
+    "preco": 201.5,
+    "precoOriginal": 314.9,
+    "imagem": "imagens/anya-cosplay.webp",
+    "categoria": "roupas",
+    "estoque": 5,
+    "destaque": true
+  },
+  {
+    "id": 12,
+    "nome": "Manto da Akatsuki",
+    "preco": 199.99,
+    "imagem": "imagens/akatsuki.webp",
+    "categoria": "roupas",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 13,
+    "nome": "Quadro Luffy",
+    "preco": 40.99,
+    "imagem": "imagens/quadro.luffy.jpeg",
+    "categoria": "quadros",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 14,
+    "nome": "Quadro Escanor",
+    "preco": 99.18,
+    "imagem": "imagens/Escanor.jpeg",
+    "categoria": "quadros",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 15,
+    "nome": "Demon Slayer Mangá Vol. 1",
+    "preco": 34.9,
+    "imagem": "imagens/demon-slayer.jpeg",
+    "categoria": "mangas",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 16,
+    "nome": "Jujutsu Kaisen Mangá Vol. 1",
+    "preco": 22.55,
+    "precoOriginal": 27.9,
+    "imagem": "imagens/Jujutsu Kaisen vol 1.jpeg",
+    "categoria": "mangas",
+    "estoque": 5,
+    "destaque": true
+  },
+  {
+    "id": 17,
+    "nome": "Re:Zero Vol. 1",
+    "preco": 42.9,
+    "imagem": "imagens/re_zero.jpeg",
+    "categoria": "ln",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 18,
+    "nome": "Aventuras Marvel #1",
+    "preco": 9.9,
+    "imagem": "imagens/miranha.webp",
+    "categoria": "hq",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 19,
+    "nome": "Super Smash Bros",
+    "preco": 367.03,
+    "imagem": "imagens/ssb.jpeg",
+    "categoria": "games",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 20,
+    "nome": "Quadro Jojo",
+    "preco": 30.0,
+    "precoOriginal": 49.9,
+    "imagem": "imagens/Jojo.jpeg",
+    "categoria": "quadros",
+    "estoque": 5,
+    "destaque": true
+  },
+  {
+    "id": 21,
+    "nome": "Funko Pop James Minions",
+    "preco": 115.1,
+    "imagem": "imagens/minions.webp",
+    "categoria": "colecionaveis",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 22,
+    "nome": "Quadro Berserk",
+    "preco": 49.9,
+    "imagem": "imagens/berserk.jpeg",
+    "categoria": "quadros",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 23,
+    "nome": "Hunter X Hunter Vol. 1",
+    "preco": 71.68,
+    "imagem": "imagens/hunter x hunter.jpeg",
+    "categoria": "mangas",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 24,
+    "nome": "Blue Lock Vol. 1",
+    "preco": 32.9,
+    "precoOriginal": 43.9,
+    "imagem": "imagens/bluelock.jpg",
+    "categoria": "mangas",
+    "estoque": 5,
+    "destaque": true
+  },
+  {
+    "id": 25,
+    "nome": "Diarios de uma Apotecária Vol. 1",
+    "preco": 73.69,
+    "imagem": "imagens/DA.jpg",
+    "categoria": "ln",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 26,
+    "nome": "Eighty Six Vol. 1",
+    "preco": 41.26,
+    "imagem": "imagens/Eighty Six.jpg",
+    "categoria": "ln",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 27,
+    "nome": "Lycoris Recoil: Ordinary Days Vol. 1",
+    "preco": 25.95,
+    "imagem": "imagens/lycorisnovel.webp",
+    "categoria": "ln",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 28,
+    "nome": "Superman/Batman: DC Compact Comics Edition",
+    "preco": 59.99,
+    "precoOriginal": 67.93,
+    "imagem": "imagens/Superman e Batman.jpg",
+    "categoria": "hq",
+    "estoque": 5,
+    "destaque": true
+  },
+  {
+    "id": 29,
+    "nome": "Core Keeper",
+    "preco": 189.97,
+    "imagem": "imagens/corekeeper.jfif",
+    "categoria": "games",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 30,
+    "nome": "The Boys Vol. 1: O Nome do Jogo",
+    "preco": 80.0,
+    "imagem": "imagens/theboys.jpg",
+    "categoria": "hq",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 31,
+    "nome": "Sonic Frontiers",
+    "preco": 93.8,
+    "precoOriginal": 100.36,
+    "imagem": "imagens/Sonic.jpeg",
+    "categoria": "games",
+    "estoque": 5,
+    "destaque": true
+  },
+  {
+    "id": 32,
+    "nome": "Mortal Kombat 1",
+    "preco": 217.79,
+    "imagem": "imagens/mk1.jpg",
+    "categoria": "games",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 33,
+    "nome": "Street Fighter 6",
+    "preco": 249.0,
+    "imagem": "imagens/streetfighter6.webp",
+    "categoria": "games",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 34,
+    "nome": "Chapéu do Luffy",
+    "preco": 59.9,
+    "imagem": "imagens/chapeu do luffy.jpeg",
+    "categoria": "colecionaveis",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 35,
+    "nome": "Máscara Sally Face",
+    "preco": 80.75,
+    "imagem": "imagens/sallyface.jpeg",
+    "categoria": "colecionaveis",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 36,
+    "nome": "3 Chaveiros de God Of War",
+    "preco": 150.0,
+    "precoOriginal": 200.0,
+    "imagem": "imagens/chaveirogodofwar.jpg",
+    "categoria": "colecionaveis",
+    "estoque": 5,
+    "destaque": true
+  },
+  {
+    "id": 37,
+    "nome": "Batman X Fortnite Vol. 1",
+    "preco": 9.9,
+    "imagem": "imagens/dc-e-fort1.jpeg",
+    "categoria": "hq",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 38,
+    "nome": "Batman X Fortnite Vol. 2",
+    "preco": 9.9,
+    "imagem": "imagens/dc-e-fort2.jpeg",
+    "categoria": "hq",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 39,
+    "nome": "Batman X Fortnite Vol. 3",
+    "preco": 9.9,
+    "imagem": "imagens/dc-e-fort3.jpeg",
+    "categoria": "hq",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 40,
+    "nome": "Batman X Fortnite Vol. 4",
+    "preco": 9.9,
+    "imagem": "imagens/dc-e-fort4.jpeg",
+    "categoria": "hq",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 41,
+    "nome": "Batman X Fortnite Vol. 5",
+    "preco": 9.9,
+    "imagem": "imagens/dc-e-fort5.jpeg",
+    "categoria": "hq",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 42,
+    "nome": "Batman X Fortnite Vol. 6",
+    "preco": 9.9,
+    "imagem": "imagens/dc-e-fort6.avif",
+    "categoria": "hq",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 43,
+    "nome": "Marvel X Fortnite: Guerra do Ponto Zero Vol. 1",
+    "preco": 14.9,
+    "imagem": "imagens/mrl-e-fort1.jpeg",
+    "categoria": "hq",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 44,
+    "nome": "Marvel X Fortnite: Guerra do Ponto Zero Vol. 2",
+    "preco": 14.9,
+    "imagem": "imagens/mrl-e-fort2.jpeg",
+    "categoria": "hq",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 45,
+    "nome": "Marvel X Fortnite: Guerra do Ponto Zero Vol. 3",
+    "preco": 14.9,
+    "imagem": "imagens/mrl-e-fort3.jpeg",
+    "categoria": "hq",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 46,
+    "nome": "Marvel X Fortnite: Guerra do Ponto Zero Vol. 4",
+    "preco": 14.9,
+    "imagem": "imagens/mrl-e-fort4.jpeg",
+    "categoria": "hq",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 47,
+    "nome": "Marvel X Fortnite: Guerra do Ponto Zero Vol. 5",
+    "preco": 14.9,
+    "imagem": "imagens/mrl-e-fort5.jpeg",
+    "categoria": "hq",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 48,
+    "nome": "Quadro de Procurado Chopper",
+    "preco": 18.0,
+    "precoOriginal": 30.0,
+    "imagem": "imagens/chopper.jpeg",
+    "categoria": "quadros",
+    "estoque": 5,
+    "destaque": true
+  },
+  {
+    "id": 49,
+    "nome": "Caneca de Death Note",
+    "preco": 35.99,
+    "imagem": "imagens/deathnote.webp",
+    "categoria": "canecas",
+    "estoque": 5,
+    "destaque": false
+  },
+  {
+    "id": 50,
+    "nome": "Action Figure do Monkey D. Luffy",
+    "preco": 327.5,
+    "precoOriginal": 368.11,
+    "imagem": "imagens/acLuffy.webp",
+    "categoria": "ac",
+    "estoque": 5,
+    "destaque": true
+  },
+  {
+    "id": 51,
+    "nome": "Attack On Titan",
+    "preco": 49.0,
+    "imagem": "imagens/attk.jpg",
+    "categoria": "mangas",
+    "estoque": 5,
+    "destaque": false
+  }
+]

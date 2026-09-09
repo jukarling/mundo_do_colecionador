@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collector's Hub | Loja Geek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <header>
+        <button class="hamburger-btn" id="menuToggle" aria-label="Abrir Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="logo">
+            <a href="#" id="logoLink">
+                <img src="imagens/Logo.png" alt="Collector's Hub Logo">
+            </a>
+        </div>
+
+            <div class="header-actions">
+        <!-- CAMPO DE BUSCA (Apoiado pelo script) -->
+        <input type="text" id="inputBusca" placeholder="Pesquisar produto..." style="padding: 8px 12px; border-radius: 6px; border: 1px solid var(--border-color, #333); background: var(--bg-card, #1e1e2d); color: #fff;">
+
+        <button class="btn" id="btnIrCarrinho">
+            🛒 <span>Carrinho</span>
+            <span id="cartCountBadge" class="badge">0</span>
+        </button>
+        <button class="letra_botao_cadas" id="btnIrCadastro" title="Cadastro / Login">
+            <span class="icon">👤</span>
+        </button>
+        <button class="letra_botao_cadas" id="btnIrConfig" title="Configurações">
+            <span class="icon">⚙️</span>
+        </button>
+    </div>
+
+    </header>
+
+    <div class="container">
+        <aside id="sidebar">
+            <div class="aside-header">
+                <h2>Categorias</h2>
+                <button class="close-btn" id="menuClose">&times;</button>
+            </div>
+            <ul>
+                <li><a class="nav-link" href="#" data-categoria="todos">🏠 Todos os Produtos</a></li>
+                <li><a class="nav-link" href="#" data-categoria="canecas">☕ Canecas</a></li>
+                <li><a class="nav-link" href="#" data-categoria="ac">🦸 Action Figures</a></li>
+                <li><a class="nav-link" href="#" data-categoria="quadros">🖼️ Quadros</a></li>
+                <li><a class="nav-link" href="#" data-categoria="mangas">📚 Mangás</a></li>
+                <li><a class="nav-link" href="#" data-categoria="ln">📖 Light Novels</a></li>
+                <li><a class="nav-link" href="#" data-categoria="hq">💥 Quadrinhos</a></li>
+                <li><a class="nav-link" href="#" data-categoria="games">🎮 Games</a></li>
+                <li><a class="nav-link" href="#" data-categoria="colecionaveis">🎲 Colecionáveis</a></li>
+                <li><a class="nav-link" href="#" data-categoria="roupas">👘 Roupas</a></li>
+            </ul>
+        </aside>
+
+        <main id="app">
+            <section class="destaques-section">
+                <div class="destaques-header-wrapper">
+                    <div class="destaques-header">
+                        <h2 class="secao-titulo">🔥 Destaques da Loja</h2>
+                        <p class="destaques-subtitulo">Confira os itens mais procurados da semana</p>
+                    </div>
+                    <div class="carrossel-controles">
+                        <button class="btn-nav" id="prevBtn" aria-label="Anterior">&#10094;</button>
+                        <button class="btn-nav" id="nextBtn" aria-label="Próximo">&#10095;</button>
+                    </div>
+                </div>
+
+                <div class="carrossel-wrapper">
+                    <div class="carrossel-track" id="carrosselTrack">
+                        
+                        <article class="card" data-descricao="Action Figure altamente detalhada com acabamento premium em PVC, articulações móveis e base iluminada em LED com temática Cyberpunk. Edição limitada para colecionadores.">
+                            <span class="badge-desconto-card">-20%</span>
+                            <img class="imagem_produto" src="https://via.placeholder.com/300" alt="Action Figure Cyberpunk">
+                            <h3>Action Figure Cyberpunk</h3>
+                            <div class="container-preco">
+                                <span class="preco-antigo">R$ 299,90</span>
+                                <span class="preco-atual">R$ 239,90</span>
+                            </div>
+                            <button class="btn-comprar">Adicionar ao Carrinho</button>
+                        </article>
+
+                        <article class="card" data-descricao="Caneca de cerâmica de alta qualidade com efeito térmico reagente. Ao despejar líquidos quentes, a estampa mágica se revela inteiramente. Capacidade de 325ml.">
+                            <span class="badge-novo-card">Novo</span>
+                            <img class="imagem_produto" src="https://via.placeholder.com/300" alt="Caneca Geek Magic">
+                            <h3>Caneca Geek Magic</h3>
+                            <div class="container-preco">
+                                <span class="preco-atual">R$ 59,90</span>
+                            </div>
+                            <button class="btn-comprar">Adicionar ao Carrinho</button>
+                        </article>
+
+                        <article class="card" data-descricao="Primeiro volume em edição especial de colecionador com capa dura, páginas coloridas exclusivas e marcador de página personalizado em metal.">
+                            <img class="imagem_produto" src="https://via.placeholder.com/300" alt="Manga Special Edition">
+                            <h3>Mangá Special Edition Vol. 1</h3>
+                            <div class="container-preco">
+                                <span class="preco-atual">R$ 42,90</span>
+                            </div>
+                            <button class="btn-comprar">Adicionar ao Carrinho</button>
+                        </article>
+
+                        <article class="card" data-descricao="Quadro decorativo com moldura de madeira de reflorestamento e iluminação LED embutida estilo neon. Acompanha controle remoto para troca de cores e modos de iluminação.">
+                            <span class="badge-desconto-card">-15%</span>
+                            <img class="imagem_produto" src="https://via.placeholder.com/300" alt="Quadro Gamer Neon">
+                            <h3>Quadro Gamer Neon</h3>
+                            <div class="container-preco">
+                                <span class="preco-antigo">R$ 110,00</span>
+                                <span class="preco-atual">R$ 93,50</span>
+                            </div>
+                            <button class="btn-comprar">Adicionar ao Carrinho</button>
+                        </article>
+
+                        <article class="card" data-descricao="Moletom com capuz e bolso canguru, feito em algodão macio e poliéster, com estampa em alta definição resistente a lavagens. Modelagem unissex confortável.">
+                            <span class="badge-novo-card">Novo</span>
+                            <img class="imagem_produto" src="https://via.placeholder.com/300" alt="HODIAO Roupas Anime">
+                            <h3>Moletom Personalizado Anime</h3>
+                            <div class="container-preco">
+                                <span class="preco-atual">R$ 189,90</span>
+                            </div>
+                            <button class="btn-comprar">Adicionar ao Carrinho</button>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div id="modalProduto" class="menu-overlay">
+        <div class="modal-card">
+            <button id="btnFecharModal" class="close-btn" aria-label="Fechar">&times;</button>
+            <img id="modalImagem" src="" alt="Produto">
+            <div class="modal-info">
+                <h2 id="modalTitulo"></h2>
+                <div class="container-preco">
+                    <span id="modalPrecoAntigo" class="preco-antigo"></span>
+                    <span id="modalPreco" class="preco-atual"></span>
+                </div>
+                <p id="modalDescricao" class="modal-descricao"></p>
+                <button id="modalBtnAdicionar" class="btn">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Collector's Hub | A sua loja de colecionáveis geek.</p>
+    </footer>
+
+</body>
+</html>

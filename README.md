@@ -1,1 +1,2 @@
-# mundo_do_colecionador
+# Mundo-do-Colecionador
+Colecionando memórias, Conquistando corações
